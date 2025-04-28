@@ -1,0 +1,289 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int numbers[5]; // Declare an array of 5 integers
+
+    // Input elements
+    cout << "Enter 5 numbers:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << "Number " << i + 1 << ": ";
+        cin >> numbers[i];
+    }
+
+    // Display elements
+    cout << "\nYou entered:" << endl;
+    for (int i = 0; i < 5; i++) {
+        cout << numbers[i] << " ";
+    }
+
+    return 0;
+}
+⭐ This program does two things:
+
+Takes 5 numbers from the user and stores them in an array.
+
+Prints all the numbers back to the user.
+
+Would you also like a few more examples, like sum of array elements or largest number in an array? 🚀
+
+
+
+
+
+
+
+You said:
+50 program 
+
+
+ChatGPT said:
+Got it! You want 50 array programs in C++ — that's awesome! 🔥
+I'll start by listing different types of array programs and then provide simple examples.
+(We'll keep each program short and easy to understand.)
+
+List of 50 Array Programs in C++
+
+S.No	Program Title
+1	Input and Output of Array Elements
+2	Find Sum of Array Elements
+3	Find Average of Array Elements
+4	Find Maximum Element
+5	Find Minimum Element
+6	Search an Element (Linear Search)
+7	Search an Element (Binary Search)
+8	Reverse the Array
+9	Sort Array (Ascending Order)
+10	Sort Array (Descending Order)
+11	Count Even and Odd Numbers
+12	Count Positive and Negative Numbers
+13	Copy Array Elements into Another Array
+14	Merge Two Arrays
+15	Find Duplicate Elements
+16	Delete Duplicate Elements
+17	Insert an Element at Given Position
+18	Delete an Element at Given Position
+19	Swap First and Last Elements
+20	Find Second Largest Element
+21	Find Second Smallest Element
+22	Left Rotate an Array
+23	Right Rotate an Array
+24	Find Frequency of Each Element
+25	Print Unique Elements
+26	Count Total Number of Duplicate Elements
+27	Move All Zeros to End
+28	Split Array into Two Equal Parts
+29	Find Difference between Max and Min
+30	Sum of Even Numbers
+31	Sum of Odd Numbers
+32	Find Kth Largest Element
+33	Find Kth Smallest Element
+34	Check if Array is Sorted or Not
+35	Remove All Even Numbers
+36	Remove All Odd Numbers
+37	Find Common Elements Between Two Arrays
+38	Find Union of Two Arrays
+39	Find Intersection of Two Arrays
+40	Find Missing Number from an Array
+41	Find All Pairs with Given Sum
+42	Find Leader Elements in Array
+43	Find Peak Element in Array
+44	Sum of Diagonal Elements (for 2D Array)
+45	Transpose of a 2D Array
+46	Addition of Two Matrices
+47	Multiplication of Two Matrices
+48	Search Element in 2D Array
+49	Spiral Order Traversal of Matrix
+50	Find Saddle Point in Matrix
+Example: First Few Programs
+Here are first 5 examples:
+
+1. Input and Output of Array Elements
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5];
+    cout << "Enter 5 elements: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+    }
+    cout << "Elements are: ";
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
+2. Find Sum of Array Elements
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5], sum = 0;
+    cout << "Enter 5 elements: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+        sum += arr[i];
+    }
+    cout << "Sum = " << sum;
+    return 0;
+}
+3. Find Average of Array Elements
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5], sum = 0;
+    cout << "Enter 5 elements: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+        sum += arr[i];
+    }
+    float average = (float)sum / 5;
+    cout << "Average = " << average;
+    return 0;
+}
+4. Find Maximum Element
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5];
+    cout << "Enter 5 elements: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+    }
+    int max = arr[0];
+    for (int i = 1; i < 5; i++) {
+        if (arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    cout << "Maximum = " << max;
+    return 0;
+}
+5. Find Minimum Element
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5];
+    cout << "Enter 5 elements: ";
+    for (int i = 0; i < 5; i++) {
+        cin >> arr[i];
+    }
+    int min = arr[0];
+    for (int i = 1; i < 5; i++) {
+        if (arr[i] < min) {
+            min = arr[i];
+        }
+    }
+    cout << "Minimum = " << min;
+    return 0;
+}
+Would you like me to continue and send all 50 full programs one by one (in parts so it's not too heavy)? 🚀✨
+(I can even send a PDF at the end if you want!)
+Should I continue? 📚
+
+
+
+
+
+
+
+You said:
+please make 
+one program  
+use loop in array two row and two col 
+use cin 
+use loop 
+direct give me  output 
+and use condition 
+please all opearion if 20 aviable direct another cout show please 
+
+
+ChatGPT said:
+Okay! I understand you want:
+✅ A 2x2 array (2 rows, 2 columns)
+✅ Use cin to input
+✅ Use loops (for input and output)
+✅ Use a condition: if 20 is available, show a special message using cout
+✅ Direct output after input
+
+Here is the full C++ program for you:
+cpp
+Copy
+Edit
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[2][2];
+
+    // Input elements
+    cout << "Enter 4 numbers for 2x2 array:" << endl;
+    for (int i = 0; i < 2; i++) {           // rows
+        for (int j = 0; j < 2; j++) {       // columns
+            cout << "Enter element [" << i << "][" << j << "]: ";
+            cin >> arr[i][j];
+        }
+    }
+
+    // Output elements
+    cout << "\nThe array is:" << endl;
+    for (int i = 0; i < 2; i++) {          
+        for (int j = 0; j < 2; j++) {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    // Check if 20 is available
+    bool found20 = false;
+    for (int i = 0; i < 2; i++) {           
+        for (int j = 0; j < 2; j++) {
+            if (arr[i][j] == 20) {
+                found20 = true;
+            }
+        }
+    }
+
+    // Special output if 20 is found
+    if (found20) {
+        cout << "\nSpecial Message: 20 is found in the array!" << endl;
+    } else {
+        cout << "\n20 is not found in the array." << endl;
+    }
+
+    return 0;
+}
+✨ Example Output:
+less
+Copy
+Edit
+Enter 4 numbers for 2x2 array:
+Enter element [0][0]: 5
+Enter element [0][1]: 20
+Enter element [1][0]: 7
+Enter element [1][1]: 9
+
+The array is:
+5 20
+7 9
+
+Special Message: 20 is found in the array!
