@@ -49,9 +49,16 @@ int main() {
         case 3:
             cout << "Today is Wednesday";
             break;
-        // Add more cases here (4–7)
-        default:
-            cout << "Invalid input";
+       case 4 :
+       cout << "Today is Thursday ";
+       case 5 :
+       cout << "Today is Firday ";
+       case 6 :
+       cout << "Today is  saturday";
+       case 7 :
+       cout << "Today is  Sunday";
+       default:
+            cout << "Only enter value 1 to 7 ";
     }
 
     return 0;

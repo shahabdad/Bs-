@@ -1,3 +1,5 @@
+//      Def:  An array is a  collection of  similar data type  value in  a single varaible. it is derived data type
+//  in c++,which is  constructed from fundamental data  type of c++ language
 #include <iostream>
 using namespace std ;
 int main () {
