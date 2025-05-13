@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/BS CPP/function",
-      "program": "d:/BS CPP/function/build/Debug/outDebug",
+      "cwd": "d:/BS CPP/struct",
+      "program": "d:/BS CPP/struct/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
